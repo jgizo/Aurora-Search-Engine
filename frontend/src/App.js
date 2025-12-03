@@ -32,7 +32,8 @@ function App() {
 
     try {
       const startTime = performance.now();
-      const response = await fetch(`/api/search?${params}`);
+      const API_URL = process.env.REACT_APP_API_URL || '';
+      const response = await fetch(`${API_URL}/api/search?${params}`);
       const data = await response.json();
       const endTime = performance.now();
       setResults(data.items);
