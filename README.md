@@ -6,26 +6,6 @@
 
 > Note: If the app isn't responding, give it 1-2 minutes. The backend on Render may have spun down due to inactivity.
 
-## Backend
-
-```bash
-cd backend
-pip install -r requirements.txt
-python app.py
-```
-
-Runs on http://localhost:5000
-
-## Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-Runs on http://localhost:3000
-
 ## API
 
 ### GET /api/search
