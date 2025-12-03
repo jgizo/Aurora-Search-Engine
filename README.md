@@ -1,6 +1,10 @@
 # Search Engine
 
-**Live Demo:** https://aurora-search-api.onrender.com
+**Live Demo:** https://aurora-search-api.vercel.app
+
+**API:** https://aurora-search-api.onrender.com
+
+> Note: If the app isn't responding, give it 1-2 minutes. The backend on Render may have spun down due to inactivity.
 
 ## Backend
 
