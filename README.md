@@ -29,4 +29,4 @@ An alternative approach that could be considered here is using a database to sto
 Another alternative is if we opt to use Redis for caching, rather than in-memory storage. That enables scalability for our search engine, as multiple servers could share a cache. This also survives system restarts. However, there's an additional dependency in this case, and an additional network hop to Redis.
 
 ### Bonus 2: Data Insights
-The backend processing time is already under 1ms with in-memory storage. To reduce total response time to 30ms, the focus would need to be on reducing network latency. So we could deploy to edge locations closer to users, or use a CDN for static responses or cache headers for repeated queries 
+The backend processing time is already under 1ms with in-memory storage. To reduce total response time to 30ms, the focus would need to be on reducing network latency. So we could deploy to edge locations closer to users, or use a CDN for static responses or cache headers for repeated queries.
